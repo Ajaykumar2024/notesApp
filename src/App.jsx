@@ -68,7 +68,7 @@ import React, { useState } from 'react'
               <div>
                 <h1 className='font-bold leading-tight  text-xl'>{ele.heading}</h1>
               <hr />
-              <p className='text-gray-600  font-medium leading-tight mt-4'>{ele.details}</p>
+              <p className='text-gray-500  font-medium leading-tight mt-4'>{ele.details}</p>
               </div>
               
                 <button onClick={()=>{
