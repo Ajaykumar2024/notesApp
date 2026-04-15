@@ -19,7 +19,6 @@ import React, { useState } from 'react'
   }
 
   let deleteTask = (idx)=>{
-    console.log('task deleted')
     const copyTask=[...tasks]
     copyTask.splice(idx,1)
     setTasks(copyTask)    
