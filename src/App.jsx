@@ -9,6 +9,10 @@ import React, { useState } from 'react'
 
   let submitHandler= (e)=>{
     e.preventDefault()
+     if (heading.trim() === "" && details.trim() === "") {
+      alert("⚠️ Please enter heading or details!")
+      return
+    }
     const copyTasks = [...tasks]
 
     copyTasks.push({heading ,details})
@@ -76,6 +80,7 @@ import React, { useState } from 'react'
                </button>
              
             </div>
+            
 
           })}
              
